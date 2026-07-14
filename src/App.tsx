@@ -18,6 +18,7 @@ import CoachChatModule from './components/CoachChatModule';
 import DailyRewards from './components/DailyRewards';
 import WeeklyReportModule from './components/WeeklyReportModule';
 import BookRecommendations from './components/BookRecommendations';
+import AppIcon from './components/AppIcon';
 
 // Icons
 import { 
@@ -559,7 +560,7 @@ export default function App() {
       <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center p-4 relative overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-[300px] h-[300px] bg-emerald-500/10 rounded-full blur-[100px] pointer-events-none" />
         <div className="absolute bottom-1/4 right-1/4 w-[300px] h-[300px] bg-indigo-500/10 rounded-full blur-[100px] pointer-events-none" />
-        <Loader2 className="w-10 h-10 text-emerald-400 animate-spin mb-4" />
+        <AppIcon size="lg" className="mb-6" />
         <h2 className="text-xl font-bold font-display text-slate-100">MindlyticsCare</h2>
         <p className="text-xs text-slate-400 mt-1 uppercase font-semibold tracking-wider">Securing End-to-End Encrypted Handshake...</p>
       </div>
@@ -587,9 +588,7 @@ export default function App() {
       {/* Top Banner / Header Header */}
       <header className="sticky top-0 z-40 bg-slate-950/60 backdrop-blur-md border-b border-white/10 px-4 md:px-8 py-3.5 flex items-center justify-between no-print">
         <div className="flex items-center gap-3">
-          <div className="p-2 bg-gradient-to-br from-emerald-400 to-indigo-600 rounded-xl text-white shadow-lg shadow-emerald-500/20">
-            <Sparkles className="w-5 h-5 text-emerald-300" />
-          </div>
+          <AppIcon size="sm" />
           <div>
             <h1 className="text-lg font-bold font-display tracking-tight text-slate-100 flex items-center gap-1.5">
               Mindlytics<span className="text-emerald-400">Care</span>
