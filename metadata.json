@@ -1,0 +1,6 @@
+{
+  "name": "MindlyticsCare",
+  "description": "AI-Powered Psychological Wellness & Behavioral Growth Platform focusing on emotional patterns, healthy habits, and resilience building.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
